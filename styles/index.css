@@ -17,7 +17,7 @@ body {
 
 .container-content {
   max-width: 1280px;
-  /* margin-inline: auto; */
+  margin-inline: auto;
 }
 
 .px-32 {
@@ -76,10 +76,16 @@ body {
   justify-content: center;
 }
 
-.img-card {
-  border-radius: 10%;
+.w-60 {
   width: 60px;
+}
+
+.h-60 {
   height: 60px;
+}
+
+.img-card {
+  border-radius: 5%;
   border: 2px solid #000;
 }
 
@@ -146,4 +152,43 @@ body {
 
 .bg-dark {
   background-color: #000;
+}
+
+.w-186 {
+  width: 186px;
+}
+
+.h-186 {
+  height: 186px;
+}
+
+.img-card-skills {
+  border-radius: 2%;
+  border: 2px solid #000;
+}
+
+.img-icon-skills {
+  width: 60px;
+  height: 60px;
+}
+
+.img-card-skills:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.h-96 {
+  height: 96px;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, 1fr);
 }

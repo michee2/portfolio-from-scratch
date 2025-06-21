@@ -58,10 +58,6 @@ body {
   font-size: 1rem;
 }
 
-.text-gray {
-  color: #666;
-}
-
 .text-balance {
   text-align: balance;
 }
@@ -221,4 +217,93 @@ body {
 
 .p-20 {
   padding: 20px;
+}
+
+
+.w-full {
+  width: 100%;
+}
+
+.g-40 {
+  gap: 40px;
+}
+
+.g-10 {
+  gap: 10px;
+}
+
+.fs-56 {
+  font-size: 56px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.testimony-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 370px;
+  height: 398px;
+  border-radius: 5%;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.testimony-card:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.img-quotes {
+  position: absolute;
+  left: 57%;
+  bottom: 0;
+  z-index: 99;
+}
+
+.bar {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+.input-form {
+  width: 500px;
+  height: 56px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 20px;
+  font-size: 16px;
+  font-family: 'Sora';
+}
+
+.btn.btn-primary {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  height: 56px;
+  width: 173px;
+  font-family: 'Sora';
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.text-gray {
+  color: #71717A;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.g-30 {
+  gap: 30px;
 }

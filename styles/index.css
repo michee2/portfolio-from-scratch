@@ -40,8 +40,14 @@ body {
   font-size: 2rem;
 }
 
-.lh-2 {
-  line-height: 2rem;
+.lh-3-5  {
+  line-height: 3.5rem;
+}
+
+.text-outline {
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .text-no-wrap {
@@ -60,7 +66,7 @@ body {
   text-align: balance;
 }
 
-.mt-30 {
+.mt-20 {
   margin-top: 20px;
 }
 
@@ -191,4 +197,28 @@ body {
 
 .grid-rows-2 {
   grid-template-rows: repeat(2, 1fr);
+}
+
+
+/* My Experience */
+.cl-w {
+  color: #fff;
+}
+.fs-32 {
+  font-size: 28px;
+}
+.g-20 {
+  gap: 20px;
+}
+
+.border-1 {
+  border: 1px solid #fff;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.p-20 {
+  padding: 20px;
 }

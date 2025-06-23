@@ -10,6 +10,15 @@ body {
   font-family: 'Sora','Lora', serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
 .container {
   padding: 60px 80px;
   margin-inline: auto;
@@ -18,6 +27,14 @@ body {
 .container-content {
   max-width: 1280px;
   margin-inline: auto;
+}
+
+.px-80 {
+  padding-inline: 80px;
+} 
+
+.py-24 {
+  padding-block: 24px;
 }
 
 .px-32 {
@@ -200,9 +217,7 @@ body {
 .cl-w {
   color: #fff;
 }
-.fs-32 {
-  font-size: 28px;
-}
+
 .g-20 {
   gap: 20px;
 }
@@ -269,6 +284,10 @@ body {
   background-color: #000;
 }
 
+.testimony-card:hover .bar {
+  background-color: #fff;
+}
+
 .input-form {
   width: 500px;
   height: 56px;
@@ -306,4 +325,8 @@ body {
 
 .g-30 {
   gap: 30px;
+}
+
+.fs-18 {
+  font-size: 18px;
 }
